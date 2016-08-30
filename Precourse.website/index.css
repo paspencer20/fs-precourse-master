@@ -1,0 +1,234 @@
+/*First Page*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My CSS*/
+
+
+body {
+	background-color: #e6fff3;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 20px;
+	width: 960px;
+	height: 100px;
+}
+
+.header-div {
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	width: 960px;
+	margin-top: 20px;
+	float:right;
+
+}
+/*Button*/
+
+.button {
+	display: inline-block;
+	position: relative;
+	border-radius: 5px;
+	border: 2px solid #000000;
+	background: #ffffe6;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Taviraj, serif;
+	padding: 10px;
+	margin-left: 750px;
+}
+
+.intro-div {
+	display: inline-block;
+	position: absolute;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Taviraj, serif;
+	padding-top: 20px;
+
+}
+
+
+h3 {
+	font-size: 20px;
+	font-family: Taviraj, serif;
+	line-height: 25px;
+	text-align: left;
+	float:left;
+	width: 500px;
+
+}
+
+.first-div {
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+
+}
+
+
+.beach-photo {
+	width: 70%;
+	height: 500px;
+	padding-top: 40px;
+	padding-left: 175px;
+	padding-bottom: 20px;
+}
+
+
+/*Tables*/
+
+.first-table {
+	border-collapse: separate;
+	border-spacing: 50px;
+	display: inline-block;
+	position: relative;
+	height: 550px;
+	width: 1100px;
+	padding-left: 130px;
+
+}
+
+
+.me {
+	width: 65%;
+	height: auto;
+	padding-bottom: 300px;
+}
+
+
+.about-me {
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Taviraj, serif;
+	margin-top: -30px;
+	margin-left: -125px;
+
+}
+
+.me-text {
+	position: relative;
+	font-size: 17px;
+	font-family: Taviraj, serif;
+	line-height: 20px;
+	text-align: justify;
+	margin-left: -125px;
+	width: 500px;
+
+}
+
+
+.heading {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Taviraj;
+	margin-left: 30px;
+	padding-bottom: 10px;
+}
+
+
+.second-table {
+		display: inline-block;
+		position: relative;
+		border-collapse: separate;
+		border-spacing: 30px;
+		margin-left: 50px;
+}
+
+.my-family-text {
+	font-size: 17px;
+	font-family: Taviraj, serif;
+	line-height: 20px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 150px;
+}
+
+.family {
+	width: 230px;
+	height: 220px;
+	margin: 15px;
+
+}
+.hobbies {
+	width: 230px;
+	height: 220px;
+	margin: 15px;
+}
+.japan {
+	width: 230px;
+	height: 220px;
+	margin: 15px;
+}
+
+#image-enlarge {
+	font-size: 17px;
+	font-family: Taviraj, serif;
+}
+
+.footer-button {
+	border-radius: 5px;
+	border: 2px solid #000000;
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Taviraj, serif;
+	padding: 10px;
+	background: #ffffe6;
+	float: right;
+}
